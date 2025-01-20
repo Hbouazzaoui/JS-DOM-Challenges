@@ -9,4 +9,7 @@ newlist.textContent ='list2';
 ul.appendChild(newlist);
 
 //Challenge 3:
+const btn = document.getElementById('styleButton');
+btn.style.backgroundColor = 'blue';
+btn.style.color = "white";
 
