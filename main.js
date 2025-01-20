@@ -13,3 +13,11 @@ const btn = document.getElementById('styleButton');
 btn.style.backgroundColor = 'blue';
 btn.style.color = "white";
 
+//Challenge 4:
+const buttons = document.querySelectorAll('.alertButton');
+buttons.forEach(button => {
+    button.addEventListener('click', ()=>  {
+        alert(button.textContent);
+    });
+});
+
