@@ -43,5 +43,20 @@ form.addEventListener('submit' ,function (event){
     }
       setTimeout(function() {
       valid.style.display = 'none'; 
-    }, 2000);
+    },2000);
+
 });
+//Challenge 5:
+ const btnn = document.getElementById('.toggleButton');
+ const toggleDiv = document.getElementById('toggleDiv');
+
+ toggleButton.addEventListener('click' ,()=> {
+    if(toggleDiv === 'none'){
+        toggleDiv.style.display = 'block'; 
+    }
+    else{
+        toggleDiv.style.display = 'none'
+    }
+ });
+
+ 
