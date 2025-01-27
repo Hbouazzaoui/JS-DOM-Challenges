@@ -96,3 +96,11 @@ counterButton.addEventListener('click', () => {
     clickCount.textContent = `Clicks: ${count}`;
 })
 
+//Challenge 11: Add a CSS Class 
+const hoverDiv = document.getElementById('hoverDiv');
+hoverDiv.addEventListener('mouseenter', () => {
+    hoverDiv.classList.add('hoverdd');
+});
+hoverDiv.addEventListener('mouseleave', ()=> {
+    hoverDiv.classList.remove('hoverdd');
+});
