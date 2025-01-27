@@ -86,4 +86,13 @@ changeimagebtn.addEventListener('click' ,()=> {
     Imagep.src = "/immm.png";
 });
 
+//Challenge 10:
+const counterButton = document.getElementById('counterButton');
+const clickCount = document.getElementById('clickCount');
+
+let count = 0;
+counterButton.addEventListener('click', () => {
+    count++;
+    clickCount.textContent = `Clicks: ${count}`;
+})
 
