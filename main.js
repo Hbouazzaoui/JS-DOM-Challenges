@@ -79,4 +79,11 @@ rimovbtn.addEventListener('click' ,()=> {
     rimo.remove();
 });
 
+//Challenge 9:
+ const Imagep = document.getElementById('image');
+const changeimagebtn = document.getElementById('changeImageButton');
+changeimagebtn.addEventListener('click' ,()=> {
+    Imagep.src = "/immm.png";
+});
+
 
