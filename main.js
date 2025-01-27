@@ -46,7 +46,7 @@ form.addEventListener('submit' ,function (event){
     },2000);
 
 });
-//Challenge 5:
+//Challenge 6:
  const btnn = document.getElementById('.toggleButton');
  const toggleDiv = document.getElementById('toggleDiv');
 
@@ -59,4 +59,24 @@ form.addEventListener('submit' ,function (event){
     }
  });
 
- 
+ //Challenge 7:
+ const time =document.getElementById('time');
+
+function updateTime() {
+    const now = new Date();
+    const timm = now.toLocaleString();
+    time.innerHTML = timm;
+
+}
+setInterval(updateTime, 1000);
+updateTime();
+
+//Challenge 8:
+const rimo = document.getElementById('removable');
+const rimovbtn = document.getElementById('removeButton');
+
+rimovbtn.addEventListener('click' ,()=> {
+    rimo.remove();
+});
+
+
